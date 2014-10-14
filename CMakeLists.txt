@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED )
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 #Déclaration de l'exécutable
-add_executable(sandbox	src/image.cpp)
+add_executable(sandbox	src/features_tracker.cpp)
 target_link_libraries(sandbox ${OpenCV_LIBS})
 
 
