@@ -1,1 +1,6 @@
 build/
+sandbox.config
+sandbox.creator
+sandbox.creator.user
+sandbox.files
+sandbox.includes
